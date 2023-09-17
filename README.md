@@ -9,6 +9,6 @@ Notice：
 
 eg:
 
-![image]https://github.com/kevinzjy25/Auto-install/blob/77b7e749ad3573a879734b91fdd2b8e630cff338/img/Snipaste_2023-09-17_11-50-32.png
+![image](https://github.com/kevinzjy25/Auto-install/blob/77b7e749ad3573a879734b91fdd2b8e630cff338/img/Snipaste_2023-09-17_11-50-32.png)
 
 Please use formal naming instead of arbitrary naming.
