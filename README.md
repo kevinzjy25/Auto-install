@@ -1,6 +1,8 @@
 # Auto-install
 A useful installer 
 
+video:
+
 You can add names of other softwares that I didn't add to readme.txt in ‘installer’ folder.You also need to upload the Corresponding installation files to the same folder when you are updating the text file.
 
 Notice：
