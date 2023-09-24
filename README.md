@@ -52,6 +52,11 @@ Second,this script has three execution modes:
 >Jump to the 'final' label.
 >
 >print '安装完成,请重启电脑(截图工具目录：%disk1%:\snipaste)' and '如有软件未安装,可使用自定义安装(个别软件需破解请手动安装)'
+
+![image](Snipaste_2023-09-24_15-00-55.png)
+>
+>Go to the \autoinstall\wget-1.21.4-win64 directory
+![image](Snipaste_2023-09-24_15-01-20.png)
 ## Notice：
 
 1.Software that will not be installed in a full installation due to high hardware requirements：davinci reslove,matlab,KSP,FSX,Liftoff.
