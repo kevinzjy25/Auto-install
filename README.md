@@ -39,7 +39,9 @@ Second,this script has three execution modes:
 >
 >Set another variable 'type'and read input.Following are instructions for selecting the installation mode.----选择安装模式(1:基本安装(potplayer、bandzip、office、alist、clash、截图工具),2:完全安装(1中的、钉钉,微信、苹果桌面、生产力工具、工具),3:个性化安装)
 >
+>When the input value of type is 1, jump to the setup_1 label,enter 2 to jump to setup_2,enter 3 to jump to setup_3
 >
+![image](image/Snipaste_2023-09-23_10-19-44.png)
 ## Notice：
 
 1.Software that will not be installed in a full installation due to high hardware requirements：davinci reslove,matlab,KSP,FSX,Liftoff.
