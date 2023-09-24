@@ -71,12 +71,18 @@ Second,this script has three execution modes:
 >
 >Print '请选择需安装的软件,直接输入软件名称，具体参考readme.txt，skip跳转至最后--'
 >
->Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk,it'll wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/dingtalk.exe.After
+>Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk,it'll wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/dingtalk.exe.After that it will perform the above process again and again until you type 'quit'.
 
 ![image](image/Snipaste_2023-09-24_15-22-34.png)
 
+>Print  '安装完成，如有问题可发送邮件至kevinzjy5@gmail.com'
 >
+>set a variable 'restart_type' and read input
 >
+>If the variable input is '1',it will restart the computer in 60 seconds and pop-up window '安装完成,将在一分钟后重启' and end the script.
+>
+>If the variable input is '1',it will end the script directly.
+
 ## Notice：
 
 1.Software that will not be installed in a full installation due to high hardware requirements：davinci reslove,matlab,KSP,FSX,Liftoff.
