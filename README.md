@@ -69,7 +69,7 @@ Second,this script has three execution modes:
 >
 >Use the 'wget' command to download 'readma.txt' from github
 >
->Print '请选择需安装的软件,直接输入软件名称，具体参考readme.txt，skip跳转至最后--'
+>Print '请选择需安装的软件,输入对应的代码，具体参考readme.txt，quit跳转至最后--'
 >
 >Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk(EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g),it'll wget https://vy1sv-my.sharepoint.com/:u:/g/personal/kevinzjy_vy1sv_onmicrosoft_com/EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g&download=1.After that it will perform the above process again and again until you type 'quit'.
 
