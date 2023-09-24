@@ -63,7 +63,7 @@ Second,this script has three execution modes:
 >
 >Then jump to the 'setup_1' label to install the basic software.
 
-![image](image/Snipaste_2023-09-24_15-19-58.png)
+![image](image/Snipaste_2023-09-24_22-37-36.png)
 
 >Go to the \autoinstall\wget-1.21.4-win64 directory
 >
