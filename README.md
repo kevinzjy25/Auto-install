@@ -40,7 +40,7 @@ Second,this script has three execution modes:
 >Set another variable 'type'and read input.Following are instructions for selecting the installation mode.----选择安装模式(1:基本安装(potplayer、bandzip、office、alist、clash、截图工具),2:完全安装(1中的、钉钉,微信、苹果桌面、生产力工具、工具),3:个性化安装)
 >
 >When the input value of type is 1, jump to the 'setup_1' label,enter 2 to jump to 'setup_2',enter 3 to jump to 'setup_3'
->
+
 ![image](image/Snipaste_2023-09-23_11-38-02.png)
 >
 >Go to the \autoinstall\wget-1.21.4-win64 directory
@@ -53,10 +53,30 @@ Second,this script has three execution modes:
 >
 >print '安装完成,请重启电脑(截图工具目录：%disk1%:\snipaste)' and '如有软件未安装,可使用自定义安装(个别软件需破解请手动安装)'
 
-![image](Snipaste_2023-09-24_15-00-55.png)
->
+![image](image/Snipaste_2023-09-24_15-00-55.png)
+
+![image](image/Snipaste_2023-09-24_15-01-20.png)
+
 >Go to the \autoinstall\wget-1.21.4-win64 directory
-![image](Snipaste_2023-09-24_15-01-20.png)
+>
+>Use the 'wget' command to download each software installation file from the following link,and then run these installation.(Since the commands here are relatively similar, they have been omitted. The complete link is in the main script.)
+>
+>Then jump to the 'setup_1' label to install the basic software.
+
+![image](image/Snipaste_2023-09-24_15-19-58.png)
+
+>Go to the \autoinstall\wget-1.21.4-win64 directory
+>
+>Use the 'wget' command to download 'readma.txt' from github
+>
+>Print '请选择需安装的软件,直接输入软件名称，具体参考readme.txt，skip跳转至最后--'
+>
+>Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk,it'll wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/dingtalk.exe.After
+
+![image](image/Snipaste_2023-09-24_15-22-34.png)
+
+>
+>
 ## Notice：
 
 1.Software that will not be installed in a full installation due to high hardware requirements：davinci reslove,matlab,KSP,FSX,Liftoff.
