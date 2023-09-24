@@ -23,7 +23,7 @@ Second,this script has three execution modes:
 
 ### Code comments：
 
-![image](image/Snipaste_2023-09-23_10-19-44.png)
+![image](image/Snipaste_2023-09-23_11-38-02.png)
 
 >Turn off automatic return (printing)
 >
