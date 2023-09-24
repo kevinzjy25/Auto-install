@@ -25,6 +25,7 @@ echo 如有软件未安装,可使用自定义安装(个别软件需破解请手�
 goto final
 :setup_2
 cd %disk%:\autoinstall\wget-1.21.4-win64
+wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/windynamic.exe
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/dingtalk.exe
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/wechat.exe
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/fushion360.exe
@@ -52,6 +53,7 @@ wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/diskgenius.e
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/wireshark.exe
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/asssd.exe
 wget https://github.com/kevinzjy25/Auto-install/tree/main/installer/memreduct.exe
+windynamic.exe
 dingtalk.exe
 wechat.exe
 fushion360.exe
