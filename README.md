@@ -23,7 +23,7 @@ Second,this script has three execution modes:
 
 ### Code comments：
 
-![image](image/Snipaste_2023-09-23_11-38-02.png)
+![image](image/Snipaste_2023-09-23_10-19-44.png)
 
 >Turn off automatic return (printing)
 >
@@ -39,9 +39,19 @@ Second,this script has three execution modes:
 >
 >Set another variable 'type'and read input.Following are instructions for selecting the installation mode.----选择安装模式(1:基本安装(potplayer、bandzip、office、alist、clash、截图工具),2:完全安装(1中的、钉钉,微信、苹果桌面、生产力工具、工具),3:个性化安装)
 >
->When the input value of type is 1, jump to the setup_1 label,enter 2 to jump to setup_2,enter 3 to jump to setup_3
+>When the input value of type is 1, jump to the 'setup_1' label,enter 2 to jump to 'setup_2',enter 3 to jump to 'setup_3'
 >
-![image](image/Snipaste_2023-09-23_10-19-44.png)
+![image](image/Snipaste_2023-09-23_11-38-02.png)
+>
+>Go to the \autoinstall\wget-1.21.4-win64 directory
+>
+>Use the 'wget' command to download each software installation file from the following link,and then run these installation.
+>
+>Set a variable 'disk1' and read the input and then use 'xcopy' command to copy snipaste to the target drive.
+>
+>Jump to the 'final' label.
+>
+>print '安装完成,请重启电脑(截图工具目录：%disk1%:\snipaste)' and '如有软件未安装,可使用自定义安装(个别软件需破解请手动安装)'
 ## Notice：
 
 1.Software that will not be installed in a full installation due to high hardware requirements：davinci reslove,matlab,KSP,FSX,Liftoff.
@@ -74,6 +84,6 @@ diskgenius,
 wireshark,
 asssd,memreduct.
 
-3.If you have any questions, please send them to:kevinzjy5@gmail.com.
+3.If you have any questions, you can send emails to:kevinzjy5@gmail.com.
 
 
