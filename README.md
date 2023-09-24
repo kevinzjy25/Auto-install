@@ -81,7 +81,7 @@ Second,this script has three execution modes:
 >
 >If the variable input is '1',it will restart the computer in 60 seconds and pop-up window '安装完成,将在一分钟后重启' and end the script.
 >
->If the variable input is '1',it will end the script directly.
+>If the variable input is '2',it will end the script directly.
 
 ## Notice：
 
