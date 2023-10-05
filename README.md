@@ -53,17 +53,17 @@ Second,this script has three execution modes:
 >
 >print '安装完成,请重启电脑(截图工具目录：%disk1%:\snipaste)' and '如有软件未安装,可使用自定义安装(个别软件需破解请手动安装)'
 
-![image](image/Snipaste_2023-09-24_15-00-55.png)
+![image](image/Snipaste_2023-10-05_19-56-40.png)
 
 
 
 >Go to the \autoinstall\wget-1.21.4-win64 directory
 >
->Use the 'wget' command to download each software installation file from the following link,and then run these installation.(Since the commands here are relatively similar, they have been omitted. The complete link is in the main script.)
+>Use the 'wget' command to download each software installation file from the following link,and then run these installation.(Since the commands here are relatively similar, they have been omitted. The complete link is in the main script.).Then it will rename it to the right name.
 >
 >Then jump to the 'setup_1' label to install the basic software.
 
-![image](image/Snipaste_2023-09-24_22-37-36.png)
+![image](image/Snipaste_2023-10-05_19-58-54.png)
 
 >Go to the \autoinstall\wget-1.21.4-win64 directory
 >
@@ -71,7 +71,8 @@ Second,this script has three execution modes:
 >
 >Print '请选择需安装的软件,输入对应的代码，具体参考readme.txt，quit跳转至最后--'
 >
->Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk(EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g),it'll wget https://vy1sv-my.sharepoint.com/:u:/g/personal/kevinzjy_vy1sv_onmicrosoft_com/EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g&download=1.After that it will perform the above process again and again until you type 'quit'.
+>Set a 'loop' tag:set a variable 'choose' and read input. If this variable's is 'quit',it'll jump to 'final' label,when we enter the software name instead of 'quit', we will use the wget command to download the software corresponding to the content we entered from github.For example,we type dingtalk(EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g),it'll wget https://vy1sv-my.sharepoint.com/:u:/g/personal/kevinzjy_vy1sv_onmicrosoft_com/EU2zkyEWAwZEgtQC1h8Td04BG_fpFbT3PUc5LGuYd7LZXA?e=q4PZ8g&download=1.You need to choose the file properties Then it will rename it 
+ to 'name'.'file properties'.After that it will perform the above process again and again until you type 'quit'.
 
 ![image](image/Snipaste_2023-09-24_15-22-34.png)
 
